@@ -1,0 +1,185 @@
+{
+  "protocol_id": "bsrn-location-zero-shot-v1",
+  "test_included": true,
+  "station_reports": [
+    {
+      "station_code": "TAM",
+      "split": "test",
+      "archive": "TAM.zip",
+      "months": 276,
+      "input_rows": 12026966,
+      "output_bins": 801933,
+      "valid_ghi_bins": 467567,
+      "strict_ghi_bins": 385337,
+      "cadence_months": {
+        "1": 276
+      },
+      "first_timestamp": "2000-03-07T14:00:00+00:00",
+      "last_timestamp": "2023-02-28T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/TAM.parquet"
+    },
+    {
+      "station_code": "GVN",
+      "split": "test",
+      "archive": "GVN.zip",
+      "months": 346,
+      "input_rows": 12687662,
+      "output_bins": 1010737,
+      "valid_ghi_bins": 994425,
+      "strict_ghi_bins": 957360,
+      "cadence_months": {
+        "1": 276,
+        "5": 70
+      },
+      "first_timestamp": "1992-04-01T00:00:00+00:00",
+      "last_timestamp": "2021-01-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/GVN.parquet"
+    },
+    {
+      "station_code": "FUA",
+      "split": "test",
+      "archive": "FUA.zip",
+      "months": 153,
+      "input_rows": 6697473,
+      "output_bins": 446648,
+      "valid_ghi_bins": 443736,
+      "strict_ghi_bins": 443531,
+      "cadence_months": {
+        "1": 153
+      },
+      "first_timestamp": "2010-04-01T00:00:00+00:00",
+      "last_timestamp": "2022-12-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/FUA.parquet"
+    },
+    {
+      "station_code": "CAB",
+      "split": "test",
+      "archive": "CAB.zip",
+      "months": 217,
+      "input_rows": 9471409,
+      "output_bins": 631475,
+      "valid_ghi_bins": 626064,
+      "strict_ghi_bins": 625510,
+      "cadence_months": {
+        "1": 217
+      },
+      "first_timestamp": "2005-02-01T00:00:00+00:00",
+      "last_timestamp": "2023-02-28T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/CAB.parquet"
+    },
+    {
+      "station_code": "CAR",
+      "split": "test",
+      "archive": "CAR.zip",
+      "months": 268,
+      "input_rows": 11498106,
+      "output_bins": 766553,
+      "valid_ghi_bins": 756947,
+      "strict_ghi_bins": 751203,
+      "cadence_months": {
+        "1": 268
+      },
+      "first_timestamp": "1996-09-01T00:00:00+00:00",
+      "last_timestamp": "2018-12-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/CAR.parquet"
+    },
+    {
+      "station_code": "LER",
+      "split": "test",
+      "archive": "LER.zip",
+      "months": 189,
+      "input_rows": 7990590,
+      "output_bins": 532813,
+      "valid_ghi_bins": 532520,
+      "strict_ghi_bins": 530147,
+      "cadence_months": {
+        "1": 189
+      },
+      "first_timestamp": "2001-01-01T00:00:00+00:00",
+      "last_timestamp": "2017-07-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/LER.parquet"
+    },
+    {
+      "station_code": "BIL",
+      "split": "test",
+      "archive": "BIL.zip",
+      "months": 310,
+      "input_rows": 13272496,
+      "output_bins": 885170,
+      "valid_ghi_bins": 689593,
+      "strict_ghi_bins": 655048,
+      "cadence_months": {
+        "1": 310
+      },
+      "first_timestamp": "1993-09-01T00:00:00+00:00",
+      "last_timestamp": "2019-07-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/BIL.parquet"
+    },
+    {
+      "station_code": "CLH",
+      "split": "test",
+      "archive": "CLH.zip",
+      "months": 199,
+      "input_rows": 8581212,
+      "output_bins": 572111,
+      "valid_ghi_bins": 542506,
+      "strict_ghi_bins": 536275,
+      "cadence_months": {
+        "1": 199
+      },
+      "first_timestamp": "2000-05-01T00:00:00+00:00",
+      "last_timestamp": "2016-11-16T07:00:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/CLH.parquet"
+    },
+    {
+      "station_code": "LRC",
+      "split": "test",
+      "archive": "LRC.zip",
+      "months": 99,
+      "input_rows": 4322172,
+      "output_bins": 288157,
+      "valid_ghi_bins": 284352,
+      "strict_ghi_bins": 283787,
+      "cadence_months": {
+        "1": 99
+      },
+      "first_timestamp": "2014-12-01T00:00:00+00:00",
+      "last_timestamp": "2023-02-28T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/LRC.parquet"
+    },
+    {
+      "station_code": "KWA",
+      "split": "test",
+      "archive": "KWA.zip",
+      "months": 304,
+      "input_rows": 10976367,
+      "output_bins": 864257,
+      "valid_ghi_bins": 814893,
+      "strict_ghi_bins": 782675,
+      "cadence_months": {
+        "1": 235,
+        "3": 69
+      },
+      "first_timestamp": "1992-04-14T16:45:00+00:00",
+      "last_timestamp": "2017-08-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/KWA.parquet"
+    },
+    {
+      "station_code": "FLO",
+      "split": "test",
+      "archive": "FLO.zip",
+      "months": 168,
+      "input_rows": 5737319,
+      "output_bins": 459035,
+      "valid_ghi_bins": 450324,
+      "strict_ghi_bins": 411818,
+      "cadence_months": {
+        "1": 110,
+        "2": 58
+      },
+      "first_timestamp": "1994-07-01T03:00:00+00:00",
+      "last_timestamp": "2022-12-31T23:45:00+00:00",
+      "output": "C:/Users/vsida/OneDrive - Politechnika Wroclawska/Desktop/State Space Zero Shot Forecasting/data/processed/bsrn_15min/test/FLO.parquet"
+    }
+  ]
+}

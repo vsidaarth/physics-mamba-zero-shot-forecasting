@@ -1,0 +1,20 @@
+{
+  "protocol_id": "bsrn-location-zero-shot-v1",
+  "split": "test",
+  "preprocessing_completed": true,
+  "model_evaluations_completed": 0,
+  "stations": 11,
+  "files": [
+    {"name": "BIL.parquet", "bytes": 19240339, "sha256": "211d47d58c3c7d3a0a3f9026bc92d999c59efd7fe23f5b70b837cd37c38449aa"},
+    {"name": "CAB.parquet", "bytes": 15243488, "sha256": "3ab4c0d281e36d18868bc8a9282a4a0246d4f42960ef3c7e0e5aa8787705bfe8"},
+    {"name": "CAR.parquet", "bytes": 17643728, "sha256": "24815a0fbc3b59586c41f9e9adc4a39e75b6d269ad9e9e9520eb93ddd24eb86e"},
+    {"name": "CLH.parquet", "bytes": 13960484, "sha256": "9588603b2e84ed84608ee3fc05e2751b1919f9aae09f873b7d33d0bc6b0c4279"},
+    {"name": "FLO.parquet", "bytes": 11579102, "sha256": "c2a3a1cf1a8dfffb3fa0566c7019c87ad3de4166dfc0bfb9237c70aee7a42ed9"},
+    {"name": "FUA.parquet", "bytes": 9348790, "sha256": "831d3c9f2a34cf73843939e594b64976deaf34c015aa3a8296c025000515717d"},
+    {"name": "GVN.parquet", "bytes": 23375698, "sha256": "0f155b34da847261d1632af0656f6457bc4a19167763330cfa955a675c89de5f"},
+    {"name": "KWA.parquet", "bytes": 17637984, "sha256": "015cb73bbcd84939ec8b4fd0e39c2a1222368821f688b781f359f4ccabcb54a2"},
+    {"name": "LER.parquet", "bytes": 10786592, "sha256": "0c4efcdd867d0784ac090cedf035f7565edd5eb223d08cb42120a539ac9b377b"},
+    {"name": "LRC.parquet", "bytes": 7434937, "sha256": "f5427402c0b2cf44a9d527dc2d20e8426081522a1e492978e2e28f06f2bd4ceb"},
+    {"name": "TAM.parquet", "bytes": 15942836, "sha256": "fcef5a68d26bf2da50aee4f5048b5e12ba35218ab6cd34d83507a2eb37e373a1"}
+  ]
+}

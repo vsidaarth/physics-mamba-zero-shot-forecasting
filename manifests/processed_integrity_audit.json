@@ -1,0 +1,626 @@
+{
+  "passed": true,
+  "station_files": 40,
+  "split_counts": {
+    "train": 33,
+    "val": 7
+  },
+  "total_rows": 25239873,
+  "total_primary_valid_bins": 22965053,
+  "total_strict_valid_bins": 21393138,
+  "total_size_bytes": 542116253,
+  "errors": [],
+  "stations": [
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\ALE.parquet",
+      "station": "ALE",
+      "split": "train",
+      "rows": 347576,
+      "primary_valid_bins": 317242,
+      "strict_valid_bins": 315050,
+      "start": "2004-08-01T00:00:00+00:00",
+      "end": "2014-06-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 8652539,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\ASP.parquet",
+      "station": "ASP",
+      "split": "train",
+      "rows": 855479,
+      "primary_valid_bins": 851678,
+      "strict_valid_bins": 848670,
+      "start": "1995-01-01T00:00:00+00:00",
+      "end": "2020-06-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 16028286,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\BAR.parquet",
+      "station": "BAR",
+      "split": "train",
+      "rows": 996368,
+      "primary_valid_bins": 928679,
+      "strict_valid_bins": 912420,
+      "start": "1992-01-01T00:00:00+00:00",
+      "end": "2022-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 21874873,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\BER.parquet",
+      "station": "BER",
+      "split": "train",
+      "rows": 761724,
+      "primary_valid_bins": 748428,
+      "strict_valid_bins": 721953,
+      "start": "1992-01-11T00:00:00+00:00",
+      "end": "2020-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 16054653,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\BON.parquet",
+      "station": "BON",
+      "split": "train",
+      "rows": 975684,
+      "primary_valid_bins": 799441,
+      "strict_valid_bins": 572288,
+      "start": "1995-01-01T00:00:00+00:00",
+      "end": "2022-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 19080505,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\BOS.parquet",
+      "station": "BOS",
+      "split": "train",
+      "rows": 866528,
+      "primary_valid_bins": 693307,
+      "strict_valid_bins": 526567,
+      "start": "1995-08-01T00:00:00+00:00",
+      "end": "2020-04-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 17607236,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\BRB.parquet",
+      "station": "BRB",
+      "split": "train",
+      "rows": 306572,
+      "primary_valid_bins": 301233,
+      "strict_valid_bins": 233377,
+      "start": "2006-02-01T00:00:00+00:00",
+      "end": "2019-04-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 7187120,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\CAM.parquet",
+      "station": "CAM",
+      "split": "train",
+      "rows": 549937,
+      "primary_valid_bins": 549575,
+      "strict_valid_bins": 548396,
+      "start": "2001-01-01T00:00:00+00:00",
+      "end": "2017-07-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 10953555,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\CNR.parquet",
+      "station": "CNR",
+      "split": "train",
+      "rows": 447389,
+      "primary_valid_bins": 444889,
+      "strict_valid_bins": 438594,
+      "start": "2009-07-01T00:00:00+00:00",
+      "end": "2022-04-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 11316013,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\COC.parquet",
+      "station": "COC",
+      "split": "train",
+      "rows": 436390,
+      "primary_valid_bins": 408579,
+      "strict_valid_bins": 407368,
+      "start": "2004-10-02T17:30:00+00:00",
+      "end": "2020-05-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 8936968,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\DAR.parquet",
+      "station": "DAR",
+      "split": "train",
+      "rows": 448296,
+      "primary_valid_bins": 416086,
+      "strict_valid_bins": 414020,
+      "start": "2002-03-12T06:15:00+00:00",
+      "end": "2015-01-06T02:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 11266707,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\DOM.parquet",
+      "station": "DOM",
+      "split": "train",
+      "rows": 507964,
+      "primary_valid_bins": 478198,
+      "strict_valid_bins": 472387,
+      "start": "2006-01-10T16:00:00+00:00",
+      "end": "2021-02-28T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 10763929,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\DRA.parquet",
+      "station": "DRA",
+      "split": "train",
+      "rows": 866801,
+      "primary_valid_bins": 596061,
+      "strict_valid_bins": 471919,
+      "start": "1998-03-16T01:45:00+00:00",
+      "end": "2022-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 17336195,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\FPE.parquet",
+      "station": "FPE",
+      "split": "train",
+      "rows": 901699,
+      "primary_valid_bins": 671699,
+      "strict_valid_bins": 501290,
+      "start": "1995-01-28T01:00:00+00:00",
+      "end": "2020-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 18040303,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\GCR.parquet",
+      "station": "GCR",
+      "split": "train",
+      "rows": 877934,
+      "primary_valid_bins": 633918,
+      "strict_valid_bins": 490257,
+      "start": "1995-01-01T00:00:00+00:00",
+      "end": "2020-04-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 17364694,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\ISH.parquet",
+      "station": "ISH",
+      "split": "train",
+      "rows": 446088,
+      "primary_valid_bins": 444447,
+      "strict_valid_bins": 443945,
+      "start": "2010-04-01T00:00:00+00:00",
+      "end": "2022-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 9276985,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\IZA.parquet",
+      "station": "IZA",
+      "split": "train",
+      "rows": 488104,
+      "primary_valid_bins": 473451,
+      "strict_valid_bins": 470998,
+      "start": "2009-03-01T00:00:00+00:00",
+      "end": "2023-01-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 12660306,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\LAU.parquet",
+      "station": "LAU",
+      "split": "train",
+      "rows": 685638,
+      "primary_valid_bins": 679746,
+      "strict_valid_bins": 672146,
+      "start": "1999-08-09T12:00:00+00:00",
+      "end": "2020-06-30T11:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 13209071,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\LIN.parquet",
+      "station": "LIN",
+      "split": "train",
+      "rows": 936090,
+      "primary_valid_bins": 933160,
+      "strict_valid_bins": 930243,
+      "start": "1994-10-01T00:00:00+00:00",
+      "end": "2021-06-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 20490936,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\MAN.parquet",
+      "station": "MAN",
+      "split": "train",
+      "rows": 569388,
+      "primary_valid_bins": 553721,
+      "strict_valid_bins": 549623,
+      "start": "1996-10-09T23:45:00+00:00",
+      "end": "2013-10-05T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 14172519,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\MNM.parquet",
+      "station": "MNM",
+      "split": "train",
+      "rows": 445943,
+      "primary_valid_bins": 444372,
+      "strict_valid_bins": 444015,
+      "start": "2010-04-01T00:00:00+00:00",
+      "end": "2022-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 9334288,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\NYA.parquet",
+      "station": "NYA",
+      "split": "train",
+      "rows": 1062315,
+      "primary_valid_bins": 1054755,
+      "strict_valid_bins": 1014822,
+      "start": "1992-08-02T00:00:00+00:00",
+      "end": "2022-11-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        5
+      ],
+      "size_bytes": 24182494,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\PAL.parquet",
+      "station": "PAL",
+      "split": "train",
+      "rows": 641528,
+      "primary_valid_bins": 549047,
+      "strict_valid_bins": 546971,
+      "start": "2003-06-01T00:00:00+00:00",
+      "end": "2021-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 15152391,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\PTR.parquet",
+      "station": "PTR",
+      "split": "train",
+      "rows": 324626,
+      "primary_valid_bins": 313747,
+      "strict_valid_bins": 296553,
+      "start": "2007-05-01T00:00:00+00:00",
+      "end": "2019-01-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 7772251,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\REG.parquet",
+      "station": "REG",
+      "split": "train",
+      "rows": 584382,
+      "primary_valid_bins": 579926,
+      "strict_valid_bins": 569933,
+      "start": "1995-01-01T06:00:00+00:00",
+      "end": "2011-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 14527801,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\SBO.parquet",
+      "station": "SBO",
+      "split": "train",
+      "rows": 337362,
+      "primary_valid_bins": 243427,
+      "strict_valid_bins": 194905,
+      "start": "2003-01-01T00:00:00+00:00",
+      "end": "2012-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 7393007,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\SON.parquet",
+      "station": "SON",
+      "split": "train",
+      "rows": 353889,
+      "primary_valid_bins": 287072,
+      "strict_valid_bins": 269748,
+      "start": "2013-01-01T00:00:00+00:00",
+      "end": "2023-02-28T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 9367095,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\SPO.parquet",
+      "station": "SPO",
+      "split": "train",
+      "rows": 890968,
+      "primary_valid_bins": 613801,
+      "strict_valid_bins": 586823,
+      "start": "1992-01-01T00:00:00+00:00",
+      "end": "2017-06-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 18524360,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\SXF.parquet",
+      "station": "SXF",
+      "split": "train",
+      "rows": 576050,
+      "primary_valid_bins": 441473,
+      "strict_valid_bins": 339684,
+      "start": "2003-06-15T00:15:00+00:00",
+      "end": "2019-11-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 12255472,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\TAT.parquet",
+      "station": "TAT",
+      "split": "train",
+      "rows": 946644,
+      "primary_valid_bins": 892606,
+      "strict_valid_bins": 883635,
+      "start": "1996-02-01T00:00:00+00:00",
+      "end": "2023-01-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 17560596,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\TIK.parquet",
+      "station": "TIK",
+      "split": "train",
+      "rows": 270783,
+      "primary_valid_bins": 265544,
+      "strict_valid_bins": 264190,
+      "start": "2010-06-08T06:00:00+00:00",
+      "end": "2018-03-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 6271141,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\TOR.parquet",
+      "station": "TOR",
+      "split": "train",
+      "rows": 771368,
+      "primary_valid_bins": 761022,
+      "strict_valid_bins": 742495,
+      "start": "1999-01-01T00:00:00+00:00",
+      "end": "2020-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 14594304,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\train\\XIA.parquet",
+      "station": "XIA",
+      "split": "train",
+      "rows": 355706,
+      "primary_valid_bins": 355433,
+      "strict_valid_bins": 341452,
+      "start": "2005-01-01T00:00:00+00:00",
+      "end": "2015-10-31T15:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 7540079,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\GOB.parquet",
+      "station": "GOB",
+      "split": "val",
+      "rows": 378295,
+      "primary_valid_bins": 375179,
+      "strict_valid_bins": 341814,
+      "start": "2012-05-16T00:00:00+00:00",
+      "end": "2023-02-28T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 9540146,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\NAU.parquet",
+      "station": "NAU",
+      "split": "val",
+      "rows": 517484,
+      "primary_valid_bins": 485880,
+      "strict_valid_bins": 474000,
+      "start": "1998-11-01T00:00:00+00:00",
+      "end": "2013-09-08T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 12750800,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\PAY.parquet",
+      "station": "PAY",
+      "split": "val",
+      "rows": 1025548,
+      "primary_valid_bins": 1012266,
+      "strict_valid_bins": 969852,
+      "start": "1992-10-01T00:00:00+00:00",
+      "end": "2021-12-31T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 22584899,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\PSU.parquet",
+      "station": "PSU",
+      "split": "val",
+      "rows": 762815,
+      "primary_valid_bins": 687745,
+      "strict_valid_bins": 536110,
+      "start": "1998-06-28T23:45:00+00:00",
+      "end": "2020-04-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1,
+        3
+      ],
+      "size_bytes": 15473211,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\SAP.parquet",
+      "station": "SAP",
+      "split": "val",
+      "rows": 372873,
+      "primary_valid_bins": 372124,
+      "strict_valid_bins": 372013,
+      "start": "2010-04-01T00:00:00+00:00",
+      "end": "2020-11-30T23:00:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 7787473,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\SMS.parquet",
+      "station": "SMS",
+      "split": "val",
+      "rows": 371296,
+      "primary_valid_bins": 368748,
+      "strict_valid_bins": 339760,
+      "start": "2006-04-01T00:00:00+00:00",
+      "end": "2019-04-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 8777271,
+      "errors": []
+    },
+    {
+      "path": "C:\\Users\\vsida\\OneDrive - Politechnika Wroclawska\\Desktop\\State Space Zero Shot Forecasting\\data\\processed\\bsrn_15min\\val\\SYO.parquet",
+      "station": "SYO",
+      "split": "val",
+      "rows": 978349,
+      "primary_valid_bins": 937348,
+      "strict_valid_bins": 922852,
+      "start": "1994-01-01T00:00:00+00:00",
+      "end": "2021-11-30T23:45:00+00:00",
+      "native_cadence_minutes": [
+        1
+      ],
+      "size_bytes": 18453781,
+      "errors": []
+    }
+  ]
+}

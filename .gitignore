@@ -1,0 +1,14 @@
+data/
+artifacts/
+outputs/
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

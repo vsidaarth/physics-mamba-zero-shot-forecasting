@@ -1,0 +1,20 @@
+{
+  "protocol_id": "bsrn-location-zero-shot-v1",
+  "freeze_id": "bsrn-location-zero-shot-v1-final-pretest-freeze-2026-08-10",
+  "freeze_manifest_sha256": "35435f3639f0ee6583504376cf4450d7a29800f6661624cd3c3421d1b73ddfbf",
+  "model": "patchtst",
+  "seed": 42,
+  "split": "test",
+  "test_evaluated": true,
+  "evaluation_stations": 11,
+  "source_checkpoint": "results/patchtst_seed42/patchtst_checkpoint.pt",
+  "source_checkpoint_sha256": "8539278cb0c2590388389abfd8ba29323d22f6be33c249dd3997abd77dadfbf9",
+  "model_selection_performed": false,
+  "evaluation_eligibility": {
+    "context_steps": 96,
+    "minimum_context_ghi_fraction": 0.8,
+    "require_current_ghi": true,
+    "require_target_ghi": true,
+    "require_exact_15_minute_continuity": true
+  }
+}

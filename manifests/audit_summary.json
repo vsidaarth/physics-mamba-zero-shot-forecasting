@@ -1,0 +1,124 @@
+{
+  "dataset_doi": "10.1594/PANGAEA.957398",
+  "archives": 76,
+  "archive_bytes": 7344832122,
+  "monthly_station_files": 12879,
+  "minimum_consecutive_months": 60,
+  "selected_stations": 51,
+  "split_counts": {
+    "train": 33,
+    "val": 7,
+    "test": 11
+  },
+  "region_counts": {
+    "Africa": 2,
+    "Antarctica": 4,
+    "Asia": 7,
+    "Europe/Arctic": 13,
+    "North America": 14,
+    "Oceania": 7,
+    "South America": 4
+  },
+  "excluded_stations": [
+    {
+      "station_code": "ABS",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "BOU",
+      "reason": "near_duplicate_of_BOS_21.3km"
+    },
+    {
+      "station_code": "BUD",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "CAP",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "DAA",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "DWN",
+      "reason": "near_duplicate_of_DAR_0.2km"
+    },
+    {
+      "station_code": "E13",
+      "reason": "near_duplicate_of_BIL_2.8km"
+    },
+    {
+      "station_code": "ENA",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "EUR",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "GAN",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "GIM",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "GUR",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "HOW",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "ILO",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "INO",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "LYU",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "NEW",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "OHY",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "PAR",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "RLM",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "RUN",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "SEL",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "SOV",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "TIR",
+      "reason": "insufficient_consecutive_months"
+    },
+    {
+      "station_code": "YUS",
+      "reason": "insufficient_consecutive_months"
+    }
+  ]
+}

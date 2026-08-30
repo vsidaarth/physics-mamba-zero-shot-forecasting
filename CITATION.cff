@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, protocol, or released checkpoints, please cite the accompanying manuscript and this repository."
+title: "Physics-Mamba: geographical zero-shot solar irradiance forecasting"
+type: software
+authors:
+  - alias: vsidaarth
+repository-code: "https://github.com/vsidaarth/physics-mamba-zero-shot-forecasting"
+license: MIT
+date-released: 2026-08-30
+version: 1.0.0
