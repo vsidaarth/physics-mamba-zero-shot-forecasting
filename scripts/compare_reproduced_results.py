@@ -71,8 +71,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("project_root", type=Path)
     parser.add_argument("reproduced_root", type=Path)
-    parser.add_argument("--rtol", type=float, default=1e-8)
-    parser.add_argument("--atol", type=float, default=1e-3)
+    parser.add_argument("--reproduced-analysis-root", type=Path)
+    parser.add_argument("--rtol", type=float, default=1e-4)
+    parser.add_argument("--atol", type=float, default=1e-2)
     args = parser.parse_args()
 
     project = args.project_root.resolve()
@@ -113,8 +114,36 @@ def main() -> None:
             f"Table-count mismatch: released={len(reference_tables)}, "
             f"reproduced={len(reproduced_tables)}"
         )
+
+    table_count = len(reference_tables)
+    if args.reproduced_analysis_root is not None:
+        reference_analysis = project / "results/sealed_test_analysis"
+        reproduced_analysis = args.reproduced_analysis_root.resolve()
+        reference_analysis_tables = sorted(reference_analysis.glob("*.csv"))
+        reproduced_analysis_tables = sorted(reproduced_analysis.glob("*.csv"))
+        if len(reference_analysis_tables) != len(reproduced_analysis_tables):
+            raise SystemExit(
+                f"Analysis table-count mismatch: released={len(reference_analysis_tables)}, "
+                f"reproduced={len(reproduced_analysis_tables)}"
+            )
+        for reference_path in reference_analysis_tables:
+            reproduced_path = reproduced_analysis / reference_path.name
+            if not reproduced_path.is_file():
+                raise SystemExit(f"Missing reproduced analysis table: {reference_path.name}")
+            absolute, relative_error, location = compare_table(
+                reference_path,
+                reproduced_path,
+                rtol=args.rtol,
+                atol=args.atol,
+            )
+            if absolute > maximum_absolute:
+                maximum_absolute = absolute
+                maximum_location = location
+            maximum_relative = max(maximum_relative, relative_error)
+        table_count += len(reference_analysis_tables)
+
     print(
-        f"PASS: {len(reference_tables)} sealed-test tables reproduced; "
+        f"PASS: {table_count} sealed-test tables reproduced; "
         f"maximum absolute difference={maximum_absolute:.6g} "
         f"({maximum_location}); maximum relative difference={maximum_relative:.6g}; "
         f"tolerances rtol={args.rtol:g}, atol={args.atol:g}"

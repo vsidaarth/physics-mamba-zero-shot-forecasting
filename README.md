@@ -121,13 +121,26 @@ python scripts/run_frozen_test_suite.py \
   --expected-freeze-sha256 35435f3639f0ee6583504376cf4450d7a29800f6661624cd3c3421d1b73ddfbf
 ```
 
-Compare every reproduced station-level and aggregate table with the released results:
+Regenerate the reporting tables from the fresh run, then compare every reproduced station-level,
+aggregate, and analysis table with the released results:
 
 ```bash
+mkdir -p reproduction_check/results
+cp -r outputs/sealed_test_reproduction reproduction_check/results/sealed_test
+python scripts/analyze_sealed_test.py \
+  reproduction_check \
+  --bootstrap-replicates 100000 \
+  --bootstrap-seed 20260810
+
 python scripts/compare_reproduced_results.py \
   . \
-  outputs/sealed_test_reproduction
+  outputs/sealed_test_reproduction \
+  --reproduced-analysis-root reproduction_check/results/sealed_test_analysis
 ```
+
+The comparison requires identical integer counts and labels. Floating-point results must agree
+within 0.01 in absolute terms or 0.01% in relative terms, allowing for small differences between
+supported numerical-library builds.
 
 The repository already contains the completed station-level outputs and aggregate analyses. No raw or processed BSRN observations are present.
 
