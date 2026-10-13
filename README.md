@@ -76,7 +76,7 @@ python scripts/preprocess_bsrn.py \
   data/processed/bsrn_15min \
   --include-test
 
-python scripts/audit_processed_bsrn.py data/processed/bsrn_15min
+python scripts/audit_processed_bsrn.py data/processed/bsrn_15min --allow-test
 python -m unittest discover -s tests -v
 ```
 
