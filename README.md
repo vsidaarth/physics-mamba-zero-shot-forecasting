@@ -86,6 +86,13 @@ The `--include-test` switch is explicit because test-station preprocessing was l
 
 The GPU run used PyTorch 2.4.1 with CUDA 12.4, `mamba-ssm==2.2.5`, and `causal-conv1d` tag `v1.6.2.post1` on an RTX 4090. The environment commands are recorded in `scripts/setup_runpod.sh` and `requirements-gpu.txt`.
 
+On the RunPod PyTorch 2.4.0 template (`runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04`), create and verify the GPU environment with:
+
+```bash
+bash scripts/setup_runpod.sh
+source .venv/bin/activate
+```
+
 Example:
 
 ```bash

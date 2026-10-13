@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-workspace="/workspace/state-space-zero-shot"
+workspace="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 venv="$workspace/.venv"
 export PIP_CACHE_DIR="$workspace/.cache/pip"
 export MAX_JOBS="${MAX_JOBS:-8}"
