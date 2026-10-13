@@ -53,6 +53,14 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 python -m pip install -r requirements-cpu.txt
 ```
 
+Before downloading the observations, run the quick release verification. It checks all released
+checkpoint hashes, the frozen protocol and station split, the unit tests, and an independent
+regeneration of the sealed-test aggregate tables and paired bootstrap intervals:
+
+```bash
+python verify_reproducibility.py
+```
+
 Download and audit the canonical snapshot:
 
 ```bash

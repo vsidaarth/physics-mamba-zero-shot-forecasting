@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-08-10T13:16:39.217854+00:00",
+  "freeze_manifest_sha256": "35435f3639f0ee6583504376cf4450d7a29800f6661624cd3c3421d1b73ddfbf",
+  "primary_runs_preserved": [
+    "physics_mamba_seed42",
+    "physics_mamba_seed43",
+    "physics_mamba_seed44",
+    "itransformer_seed42",
+    "itransformer_seed43",
+    "itransformer_seed44",
+    "mamba_seed42",
+    "mamba_seed43",
+    "mamba_seed44",
+    "night_mask_mamba_seed42",
+    "night_mask_mamba_seed43",
+    "night_mask_mamba_seed44"
+  ],
+  "supporting_runs_completed_after_audited_resume": [
+    "lstm_seed42",
+    "tcn_seed42",
+    "dlinear_seed42",
+    "patchtst_seed42",
+    "lightgbm_seed42",
+    "persistence",
+    "climatology"
+  ],
+  "resume_reason": "legacy LSTM metadata lacked hyperparameters.architecture",
+  "partial_metrics_inspected_before_resume": false
+}
