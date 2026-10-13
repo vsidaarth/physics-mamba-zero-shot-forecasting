@@ -121,6 +121,14 @@ python scripts/run_frozen_test_suite.py \
   --expected-freeze-sha256 35435f3639f0ee6583504376cf4450d7a29800f6661624cd3c3421d1b73ddfbf
 ```
 
+Compare every reproduced station-level and aggregate table with the released results:
+
+```bash
+python scripts/compare_reproduced_results.py \
+  . \
+  outputs/sealed_test_reproduction
+```
+
 The repository already contains the completed station-level outputs and aggregate analyses. No raw or processed BSRN observations are present.
 
 ## Checkpoints
