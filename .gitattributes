@@ -1,1 +1,2 @@
 checkpoints/lightgbm_*/lightgbm_*.txt -text
+freezes/validation_freeze_manifest.json text eol=crlf
